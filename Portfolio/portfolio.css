@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+body{
+    width:100%;
+    height: 2500px;
+}
+
+/* HEADER--------------------------- */
+header{
+    width:100% ;
+    height: 13%;
+    background-color:rgba(0, 0, 39, 0.651);
+    position: fixed;
+    display: block;
+}
+#inner-bar{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+#logo{
+    height: 100%;
+    float: left ;
+}
+#logo h1{
+    padding-top: 3%;
+    height: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+#logo h2{
+    height: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+#navbar{
+    float: right;
+    height: 100%;
+}
+#navbar a{
+    height: 50%;
+    display: table;
+    float: left;
+    padding: 9% 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    transition: color 0.3s linear;
+}
+#navbar a:hover {
+    color:rgb(138, 19, 19);
+}
+/*WELCOME SECTION=-------------------- */
+#welcome-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images3.alphacoders.com/104/thumb-1920-1041825.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#text{
+    margin: 0 auto;
+    color: rgb(253, 253, 253);
+    padding: 19% 39% 30% 40%;
+    text-align: center;
+}
+#text h2{
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+}
+#text h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+}
+/*-------PROJECTS-------*/
+
+#projects{
+width: 100%;
+height: 51%;
+margin:0 auto ;
+background-color: rgb(44, 0, 0);
+}
+
+#projects h1{
+    padding-top: 10%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    color:white
+}
+h1 span{
+    font-family: 'Bangers', cursive;
+    font-size: 45px;
+    color: white;
+}
+.projects-tab{
+    width: 96%;
+  height: 32%;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  padding: 10px;
+}
+#one,
+#two, 
+#three {
+  width: 30%;
+  height:100%;
+}
+img{
+    border-radius: 10%;
+}
+#onet,
+#twot,
+#thret {
+    width:100%;
+    height: 90%;
+}
+#oneb,
+#twob,
+#threb{
+    width:100%;
+    height: 10%;
+}
+#link{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    text-align: center;
+    color:rgb(128, 128, 128);
+    transition:  0.3s linear;
+}
+#link:hover{
+color: rgb(250, 246, 246);
+font-size: 33px;
+}
+/*=---------contact-----------------------*/
+#Contact{
+    width: 100%;
+    height: 34%;
+    background-color: rgb(56, 55, 55);
+}
+#world{
+    color:white;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 20%;
+    font-weight: 900;
+}
+#Contact p{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 2%;
+}
+#Contact a{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    transition:  0.2s linear;
+}
+#Contact a:hover{
+    color:rgb(138, 19, 19);
+    font-size: 28px;
+}
+#email{
+    margin: 8% auto 0 45%; 
+}
+footer {
+    width: 100%;
+    height: 10%;
+    margin-top: 13%;
+    border-top: 4px solid rgb(44, 0, 0);
+    background-color: rgb(56, 55, 55);
+  }
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 22px;
+    text-align: center;
+}
+p span{
+    font-family: 'Bangers', cursive;
+    font-weight: 200;
+}
+
+/* media for ipad pro--------*/
+@media (max-width:1024px){
+    .projects-tab{
+      height: 28%;
+    }
+    footer {
+        margin-top: 22%;
+      }
+}
+
+/* media for ipad --------*/
+@media (max-width:768px){
+    #projects{
+        height: 39%;
+        }
+    .projects-tab{
+      height: 23%;
+    }
+    footer {
+        margin-top: 40%;
+      }
+}
+@media(max-width:500px){
+    body{
+        height: 1300px;
+    }
+header{
+    width:100% ;
+    height: 8%;
+}
+#logo h1{
+    padding-top: 3%;
+    font-size: 15px;
+}
+#logo h2{
+    font-size: 12px;
+}
+#projects h1{
+    font-size: 20px;
+}
+h1 span{
+    font-size: 23px;
+}
+#navbar a{
+    padding: 9% 25px;
+    font-size: 8px;
+}
+#text h2{
+    font-size: 35px;
+}
+#text h1{
+    font-size: 30px;
+}
+#projects{
+    height: 40%;
+    }
+.projects-tab{
+  height: 18%;
+}
+#link{
+    font-size: 16px;
+}
+#world{
+    font-size: 30px;
+    padding-bottom: 20%;
+}
+#Contact p{
+    font-size: 10px;
+}
+#Contact a{
+    font-size: 15px;
+}
+footer {
+    margin-top: 10%;
+  }
+  #email{
+    margin: 10% auto 0 35%; 
+}
+}
+/* media for iphone x --------*/
+@media (max-width:375px), (max-width:414px){
+    body{
+        height: 2000px;
+    }
+header{
+    width:100% ;
+    height: 8%;
+}
+#logo h1{
+    padding-top: 3%;
+    font-size: 15px;
+}
+#logo h2{
+    font-size: 12px;
+}
+#projects h1{
+    font-size: 20px;
+}
+h1 span{
+    font-size: 23px;
+}
+#navbar a{
+    padding: 9% 25px;
+    font-size: 8px;
+}
+#text h2{
+    font-size: 35px;
+}
+#text h1{
+    font-size: 30px;
+}
+#projects{
+    height: 30%;
+    }
+.projects-tab{
+  height: 18%;
+}
+#link{
+    font-size: 16px;
+}
+#world{
+    font-size: 30px;
+    padding-bottom: 20%;
+}
+#Contact p{
+    font-size: 10px;
+}
+#Contact a{
+    font-size: 15px;
+}
+footer {
+    margin-top: 80%;
+  }
+  #email{
+    margin: 10% auto 0 35%; 
+}
+}
+/* thats --------*/
