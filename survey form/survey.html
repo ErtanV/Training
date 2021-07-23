@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="/Users/ertanveliu/Desktop/codeing/survey form/survey.css">
+<html lang="en">
+
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <h1 id="title"> Are you going to be next BATMAN? </h1>
+    <p id="description">Looking for a brave heart to defend GOTHAM CITY</p>
+    <title>Survey form</title>
+</head>
+<body>
+    <div id="boxx">
+       <form id="survey-form"> 
+           
+         <label id="idname" for="fname">First name </label>
+         <input type="text" id="insidetext" name="firstname"  required placeholder="Your first name..">
+        
+         <div class="move">
+         <label id="idname" for="lname">Last name </label>
+         <input type="text" id="insidetext" name="Lastname" required placeholder="Your last name..">
+         </div>
+         <div class="move">
+          <label id="email" for="email">Email</label>
+          <input type="email" id="insidetext" name="email" required placeholder="Your email..">
+          </div>
+
+          <div class="move">
+              <label id="number" for="number">Age</label>
+              <input type="number"  id="insidetext" name="numberage"  min="25" max="45" required placeholder="Your age..">
+            </div>
+           
+            <div class="move">
+             <label id="idname" for="choise">Why do you want to be a BATMAN?</label>
+              <select id="dropdown" >
+                  <option value="empty">     </option>>
+                  <option value="bored"> I am too bored ro live a rich life</option>
+                  <option value="die">I want to die fast.. </option>
+                  <option value="hate"> I hate Joker</option>
+                  <option value="fun">I want to have some fun</option>
+                  </select>
+            </div>
+
+            <div class="move">
+                <label for="Gender" id="gender">Gender</label>
+                <p id="gender">
+                  <input type="radio" name="gender" value="male" checked> Male<br>
+                  <input type="radio" name="gender" value="female"> Female<br>
+                  <input type="radio" name="gender" value="super"> Superman<br>
+                  <input type="radio" name="gender" value="other"> Other
+                </p>
+              </div>
+
+              <div class="move">
+                  <label for="fear" id="idname">What are you afraid the most about this job? </label>
+                  <p id="gender" >
+                  <input type="checkbox" name="Joker" value="joker"> Joker<br>
+                  <input type="checkbox" name="dark" value="dark"> Darkness<br>
+                  <input type="checkbox" name="death" value="death"> Death<br>
+
+                  </p>
+              </div>
+
+              <div class="movee">
+                  <label for="textm" id="idname">Let us know if you have any questions about     this great job opening!</label>
+                  <textarea id="textm" name="user_message" rows="5" cols="60" placeholder="Your questions here.."></textarea> 
+
+
+              </div>
+
+              <div id="submit">
+                <button type="submit" id="submitb">Send your aplication</button>
+            </div>
+   
+    
+  
+</form>
+
+</div>                
+</body>
+</html>

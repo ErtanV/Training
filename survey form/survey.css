@@ -1,0 +1,148 @@
+body{
+    background: url(https://wallpaperaccess.com/full/796444.jpg);
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+}
+
+#title{
+    font-family: Trattatello, fantasy;
+    font-size: 40px;
+    color:rgb(255, 2, 2);
+    text-align: center;
+    width:100%;
+}
+
+#description{
+    font-size: 15px;
+    text-align: center;
+    color:rgba(255, 2, 2, 0.815);
+    font-family: Chalkduster, fantasy;
+}
+
+/* boxx */
+
+#boxx{
+width:55%;
+height:1500px;
+padding: 1em;
+border: 1px solid rgba(255, 255, 255, 0.767);
+background-color:rgba(122, 121, 121, 0.911);
+border-radius: 13px;
+margin: 3rem auto 0 auto;
+}
+#survey-form{
+    width:100%;
+    height: 100%;
+}
+
+/* inout try 1 */
+#insidetext{
+  
+    font-family: Chalkduster, fantasy;
+    font-size: 17px;
+    color: rgb(107, 4, 4);
+    width:85%;
+    height:30px;
+    border-radius: 6px;
+    border:1px solid rgba(5, 0, 0, 0.61);
+    margin:0 auto 0 5%;
+    background-color: white;
+    
+}
+.move{
+    margin-top:40px;
+}
+
+#idname{
+
+   margin: 0 auto 0 5%;
+    font-family: Chalkduster, fantasy;
+    font-size: 25px;
+    color: rgb(107, 4, 4);
+    
+    }
+
+#email{
+    
+    display:block;
+    line-height: 40px;
+    margin: 0 auto 0 5%;
+    font-family: Chalkduster, fantasy;
+    font-size: 25px;
+    color: rgb(107, 4, 4);
+}
+
+#number{
+    display:block;
+    margin: 0 auto 0 5%;
+    font-family: Chalkduster, fantasy;
+    font-size: 25px;
+    color: rgb(107, 4, 4);
+
+}
+
+#dropdown{
+    font-family: Chalkduster, fantasy;
+    font-size: 17px;
+    color: rgb(107, 4, 4);
+    width:85%;
+    height:30px;
+    border-radius: 6px;
+    border:1px solid rgba(5, 0, 0, 0.61);
+    margin:0 auto 0 5%;
+    background-color: white;
+
+}
+
+#gender{
+    margin-left:50px;
+    font-family: Chalkduster, fantasy;
+    font-size: 25px;
+    color: rgb(107, 4, 4);
+
+}
+
+.movee{
+    margin-top:60px;
+}
+
+#textm{
+    font-family: Chalkduster, fantasy;
+    font-size: 17px;
+    color: rgb(107, 4, 4);
+    width:85%;
+    height:200px;
+    border-radius: 6px;
+    border:1px solid rgb(5, 0, 0);
+    margin-left:50px;
+    background-color: white;
+    margin: 0 auto 0 5%;
+}
+
+textarea{
+    resize: none;
+}
+
+#submit{
+  
+    margin:10% auto 0 5%;
+    width: 85%;
+    height: 50px;
+
+}
+#submitb{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.658);
+    border:1px solid rgba(5, 0, 0, 0.61);
+
+    font-family: Chalkduster, fantasy;
+    font-size: 15px;
+    color: rgb(107, 4, 4);
+
+}
