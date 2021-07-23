@@ -1,0 +1,676 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+/* font-family: 'Volkhov', serif; 
+font-family: 'Montserrat', sans-serif;*/
+body{
+    width:100%;
+    height: 100%;
+}
+#container{
+    width: 100%;
+    height: 9000px;
+    position: relative;
+}
+
+/* header---------------------- */
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    display: block;
+    z-index: 2;
+}
+.inner-header{
+    width:67%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+    padding-left: 5%;
+}
+.inner-header img{
+    width:200px;
+    height: 25px;
+    padding-top: 3%;
+}
+.nav-bar{
+    float:right;
+    height: 100%;
+}
+.nav-link{
+    height:100%;
+    display: table;
+    float: left;
+    padding: 0px 27px;
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+     font-weight: normal;
+    font-size: 20px;
+}
+.nav-link:hover {
+    color:rgb(190, 10, 25);
+}
+.nav-bar li{
+    height: 50%;
+    display: table-cell;
+    padding-top: 6%;
+}
+.callus{
+    width: 19%;
+    height: 50%;
+    float: right;
+    padding-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+}
+.callus a{
+    padding-left: 50px;
+    color: black;
+    transition: color 0.3s linear;
+    font-weight: 900;
+}
+.callus a:hover{
+    color: rgb(252, 50, 50);
+}
+/* main part================== */
+#home{
+    z-index: 1;
+    height: 880px;
+    position: relative; 
+    
+}
+.background{
+    width:100%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box-first{
+    position: absolute;
+    width: 1250px;
+
+}
+.box-left{
+    width: 750px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.5);
+border-radius: 50px;   
+   float: left; 
+   margin: 14% 0 0 5%;
+   position: relative;
+} 
+.box-left h3{
+    font-family: 'Montserrat', sans-serif;   
+     font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    padding: 30px 0 10px 50px ;
+}
+.box-left h3 span{
+    color: green;
+    font-weight: 700;
+}
+.box-left p{
+    font-family: 'Montserrat', sans-serif;   
+    font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   padding: 30px 10px 10px 30px ;
+}
+.box-left p:nth-child(3){
+font-weight: bold;
+padding-top: 10px;
+}
+.box-left a{
+    width: 296px;
+    height: 56px;
+    background: rgba(22, 82, 1, 0.03);
+background-blend-mode: hard-light;
+border: 1px solid #238102;
+box-sizing: border-box;
+border-radius: 30px;
+position: absolute;
+margin: 20px 0 0 40px;
+}
+.box-left a p{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 22px;
+    color: black;
+    margin: 0 auto;
+    padding: 13px 0 25px 45px;
+    font-weight: 200;
+}
+.box-right{
+    width: 400px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.918);
+    box-shadow: 9px 9px 13px #EAE3C0;
+   float: right; 
+   margin: 16% 4% 0 0;
+   position: relative;
+   border-radius: 74px;
+} 
+form p{
+    padding:50px 15px 0 15px;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+.box-right input{
+    margin: 40px 50px 0 50px;
+}
+form .ask{
+    width: 300px;
+    height: 60px;
+    background: rgba(241, 241, 241, 0.938);
+background-blend-mode: hard-light;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50px;
+font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+}
+::placeholder{
+    color: rgb(230, 5, 5);
+    margin: 0 auto ;
+    padding: 0 0 0 10%;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 15px;
+    color: black;
+}
+.box-right button{
+    width: 256px;
+height: 56px;
+background: linear-gradient(90deg, #76B852 0%, #8DC26F 100%);
+border-radius: 30px;
+margin:6% 10% 0 18%;
+font-family: 'Montserrat', sans-serif;   
+font-size: 20px;
+color: black;
+border: none;
+}
+.wave-top{
+    width: 100%;
+    height: 146px;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+
+}
+/* section for-who */
+.for-who{
+    background: #FFEFC5;
+    height: 750px;
+    width: 100%;
+}
+#about{
+    width: 100%;
+    position: relative;
+    
+}
+.wave-bottom{
+    width: 100%;
+    height: 160px;
+    bottom: 0;
+    left:0;
+    margin:0 auto ;
+}
+
+#about h2{
+text-align: center;
+font-family: 'Montserrat', sans-serif;   
+font-size: 30px;
+color: black;
+font-weight: 400;
+padding-top: 20px;
+}
+#about img{
+    width: 550px;
+height: 400px;
+    float: right;
+    padding: 100px 20px 0 0;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+#about div{
+    float:left;
+    width:50%;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+#about p{
+    text-align: left;
+font-family: 'Montserrat', sans-serif;   
+font-size: 25px;
+color: black;
+font-weight: 400;
+padding: 30px 3px 0 90px;
+}
+/* aboutus----------- */
+
+.small-logo{
+    width:80%;
+    height: 700px;
+    margin: 0 10% 0 10%;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 45%;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+.box1 li{
+    width:210px;
+    padding: 85px;
+    margin: 0 auto;
+    text-align: center;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box1 li h4{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 23px;
+    color: black;
+}
+.box1 li p{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 13px;
+    color: black;
+}
+
+.small-logo li img{
+width:137px;
+height: 137px;
+margin: 0 auto;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    height: 45%;
+    flex-wrap: wrap;
+    margin-left: 13%;
+    margin-top: 4%;
+}
+.box2 li{
+    width:210px;
+    padding:50px;
+   margin-left: 10%;
+    text-align: center;
+}
+.box2 li h4{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 23px;
+    color: black;
+    padding-top: 10px;
+}
+.box2 li p{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 13px;
+    color: black;
+}
+/* company---------- */
+.company{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background: rgba(151, 191, 63, 0.83);
+    z-index: 1;
+}
+.wavegreen{
+    width: 100%;
+}
+.fall{
+    width:400px;
+    height: 350px;
+    right: -5px;
+    top: -70px;
+    position: absolute;
+    z-index: 2;
+}
+.fall2{
+    float: right;
+    position: absolute;
+    z-index: 3;
+    right: 8%;
+    top:17%;
+}
+.company h2{
+    width: 100%;
+    z-index: 3;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 33px;
+    color: black;
+    padding-top: 100px;
+    text-align: center;
+}
+.company p{
+    width: 80%;
+    z-index: 3;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 23px;
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+    margin-left: 10%;
+}
+/* products -----------*/
+#products{
+    width: 100%;
+    height: 1100px; 
+}
+#products h2{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 33px;
+    color: black;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: 400;
+}
+.peel{
+    width: 500px;
+    height: 350px;
+    margin-left: 10%;
+}
+.nutinshell{
+    width: 450px;
+    height: 300px;
+    margin-top: 10%;
+}
+#products ul{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#products li{
+    width:35%;
+    height: 500;
+    margin: 14% auto 0;
+    text-align: center;
+}
+#products li h4{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    margin: 10% 0 0 15%;
+}
+
+#products li p{
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    margin: 2% 0 2% 15%;
+}
+#products li p span{
+    font-weight: bold;
+    font-size: 22px;
+}
+#products button{
+    width: 296px;
+height: 66px;
+background: linear-gradient(90deg, #76B852 0%, #8DC26F 100%);
+border-radius: 30px;
+border: none;
+margin-left: 10%;
+font-family: 'Montserrat', sans-serif;   
+    font-size: 23px;
+    color: black;
+}
+
+.triangle{
+    width: 100%;
+    margin-top: 5%;
+
+}
+/* quality---------- */
+.quality{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(90deg, #ECE9E6 0%, #FFFFFF 100%);
+}
+.quality h3{
+    padding-top: 10%;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 33px;
+    color: black;
+    text-align: center;
+}
+.quality p{
+    padding-top: 3%;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: 200;
+}
+.quality div{
+    width: 80%;
+    height: 90%;
+    margin: 0 auto 0 12%;
+}
+.quality img{
+    padding: 50px;
+}
+/* we know----------- */
+.we-know{
+    width: 100%;
+    height: 1100px;
+    background: #FFEFC5;
+    position: relative;
+}
+.we-know h3{
+    padding-top: 10%;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 37px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+}
+.we-know p{
+    text-align: center;
+    margin-top: 170px;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 20px;
+    color: black;
+}
+.circle{
+    width:1000px;
+    position: absolute;
+    top:38%;
+    left: 16%;
+    z-index: 1;
+}
+.one span{
+    font-weight: bold;
+    font-size: 19px;
+}
+.one{
+    width: 20%;
+    z-index: 2;
+    position: relative;
+    margin-left:130px;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+    margin-bottom: 80px;
+    margin-right: 0;
+   text-align: center;
+
+}
+.two{
+    float:right;
+    z-index: 2;
+    position: absolute;
+    top: 33%;
+    right: 9%;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+   text-align: center;
+
+}
+.two span{
+    font-weight: bold;
+    font-size: 19px;
+}
+.three{
+    float:right;
+    z-index: 2;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+    left: 7%;
+    bottom:17%;
+   text-align: center;
+
+}
+.three span{
+    font-weight: bold;
+    font-size: 19px;
+}
+.four{
+    bottom: 17%;
+    right: 4%;
+    float:right;
+    z-index: 2;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+   float: right;
+   text-align: center;
+}
+.four span{
+    font-weight: bold;
+    font-size: 19px;
+}
+/* nuts------------------ */
+.nuts{
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nuts img{
+    width: 100%;
+    height: 100%;
+
+}
+.nuts article{
+    width:650px;
+    height: 800px;
+    background: rgb(255, 255, 255);
+box-shadow: 9px 9px 13px #EAE3C0;
+border-radius: 74px;
+    position: absolute;
+    top: 65px;
+    left: 70px;
+}
+.nuts form{
+    width: 500px;
+    height: 800px;
+    background: rgb(255, 255, 255);
+box-shadow: 9px 9px 13px #EAE3C0;
+border-radius: 74px;
+    position: absolute;
+    top: 65px ;
+    right: 65px;
+}
+.nuts article p{
+    padding-left: 60px;
+    width: 80%;
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 25px;
+    color: black;
+   text-align: left;
+   font-weight: 100;
+}
+.nuts article p span{
+    margin-top: 20px;
+    display: block;
+font-weight: 800;
+font-size: 26px;
+font-family: 'Montserrat', sans-serif;   
+    font-size: 25px;
+    color: black;
+
+}
+h4{
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 27px;
+    color: black;
+    text-align: center;  
+    font-size: 400;
+}
+.yourname{
+    margin: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 400px;
+    height: 60px;
+    background: rgba(241, 241, 241, 0.938);
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50px;
+font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+}
+textarea{
+    margin: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 400px;
+    height: 200px;
+    background: rgba(241, 241, 241, 0.938);
+
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50px;
+font-family: 'Montserrat', sans-serif;   
+    font-size: 17px;
+    color: black;
+}
+/* final------- */
+.final{
+    position: relative;
+    width: 100%;
+    height: 2200px;
+}
+.big-nut{
+position: absolute;
+width: 100%;
+height: 600px;
+top: 150px;
+}
+
