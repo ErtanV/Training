@@ -1,0 +1,21 @@
+@mixin center
+ {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header {
+  background: $primary;
+  @include center();
+  button{
+    margin: 25px;
+    background: $tColor;
+    color: $text;
+    &:hover{
+    background: $primary;
+    }
+  }
+}

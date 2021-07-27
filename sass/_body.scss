@@ -1,0 +1,10 @@
+.main{
+  @include center();
+  background: $tColor;
+  button{
+    margin: 25px;
+    color: $text;
+    &:hover{
+    background: $primary;
+    }
+}}
